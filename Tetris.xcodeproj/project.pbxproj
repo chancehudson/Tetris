@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C119057164185170062EE72 /* MFTetrisEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C119056164185170062EE72 /* MFTetrisEngine.m */; };
+		4C11905A164187A60062EE72 /* MFTetrisPieces.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C119059164187A60062EE72 /* MFTetrisPieces.m */; };
+		4C11906C1641B8950062EE72 /* MFTetrisPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C11906B1641B8950062EE72 /* MFTetrisPiece.m */; };
+		4C1190701641C8280062EE72 /* brickIImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C11906F1641C8280062EE72 /* brickIImage.png */; };
+		4C30E6711640933C00FD02C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C30E6701640933C00FD02C4 /* Cocoa.framework */; };
+		4C30E67B1640933C00FD02C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E6791640933C00FD02C4 /* InfoPlist.strings */; };
+		4C30E67D1640933C00FD02C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C30E67C1640933C00FD02C4 /* main.m */; };
+		4C30E6811640933C00FD02C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E67F1640933C00FD02C4 /* Credits.rtf */; };
+		4C30E6841640933C00FD02C4 /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C30E6831640933C00FD02C4 /* MFAppDelegate.m */; };
+		4C30E6871640933C00FD02C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E6851640933C00FD02C4 /* MainMenu.xib */; };
+		4C968AA7164339CB000A347C /* MFClassicModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C968AA6164339CB000A347C /* MFClassicModeView.m */; };
+		4CEB719D1640AC3F00B36E38 /* MFTetrisGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB719C1640AC3F00B36E38 /* MFTetrisGameView.m */; };
+		4CEB71AD1640AEE000B36E38 /* MFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB71AC1640AEE000B36E38 /* MFView.m */; };
+		4CEB71AF1640AF9700B36E38 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEB71AE1640AF9700B36E38 /* QuartzCore.framework */; };
+		4CEB71B11640AF9D00B36E38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEB71B01640AF9D00B36E38 /* CoreGraphics.framework */; };
+		4CEB71B71640B73300B36E38 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEB71B61640B73300B36E38 /* OpenGL.framework */; };
+		4CEB71C11640BFED00B36E38 /* MFSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB71C01640BFED00B36E38 /* MFSprite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C119055164185170062EE72 /* MFTetrisEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTetrisEngine.h; sourceTree = "<group>"; };
+		4C119056164185170062EE72 /* MFTetrisEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTetrisEngine.m; sourceTree = "<group>"; };
+		4C119058164187A60062EE72 /* MFTetrisPieces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTetrisPieces.h; sourceTree = "<group>"; };
+		4C119059164187A60062EE72 /* MFTetrisPieces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTetrisPieces.m; sourceTree = "<group>"; };
+		4C11906A1641B8950062EE72 /* MFTetrisPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTetrisPiece.h; sourceTree = "<group>"; };
+		4C11906B1641B8950062EE72 /* MFTetrisPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTetrisPiece.m; sourceTree = "<group>"; };
+		4C11906F1641C8280062EE72 /* brickIImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brickIImage.png; sourceTree = "<group>"; };
+		4C30E66C1640933C00FD02C4 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C30E6701640933C00FD02C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4C30E6731640933C00FD02C4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4C30E6741640933C00FD02C4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C30E6751640933C00FD02C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C30E6781640933C00FD02C4 /* Tetris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tetris-Info.plist"; sourceTree = "<group>"; };
+		4C30E67A1640933C00FD02C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C30E67C1640933C00FD02C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C30E67E1640933C00FD02C4 /* Tetris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tetris-Prefix.pch"; sourceTree = "<group>"; };
+		4C30E6801640933C00FD02C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4C30E6821640933C00FD02C4 /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
+		4C30E6831640933C00FD02C4 /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
+		4C30E6861640933C00FD02C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4C30E68D1640A4F900FD02C4 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4C968AA5164339CB000A347C /* MFClassicModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFClassicModeView.h; path = ../MFClassicModeView.h; sourceTree = "<group>"; };
+		4C968AA6164339CB000A347C /* MFClassicModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFClassicModeView.m; path = ../MFClassicModeView.m; sourceTree = "<group>"; };
+		4CEB719B1640AC3F00B36E38 /* MFTetrisGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTetrisGameView.h; sourceTree = "<group>"; };
+		4CEB719C1640AC3F00B36E38 /* MFTetrisGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTetrisGameView.m; sourceTree = "<group>"; };
+		4CEB71AB1640AEE000B36E38 /* MFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFView.h; sourceTree = "<group>"; };
+		4CEB71AC1640AEE000B36E38 /* MFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFView.m; sourceTree = "<group>"; };
+		4CEB71AE1640AF9700B36E38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4CEB71B01640AF9D00B36E38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CEB71B61640B73300B36E38 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4CEB71BF1640BFED00B36E38 /* MFSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSprite.h; sourceTree = "<group>"; };
+		4CEB71C01640BFED00B36E38 /* MFSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSprite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C30E6691640933C00FD02C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEB71B71640B73300B36E38 /* OpenGL.framework in Frameworks */,
+				4CEB71B11640AF9D00B36E38 /* CoreGraphics.framework in Frameworks */,
+				4CEB71AF1640AF9700B36E38 /* QuartzCore.framework in Frameworks */,
+				4C30E6711640933C00FD02C4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C11906D1641BF850062EE72 /* QuartzView */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB71BF1640BFED00B36E38 /* MFSprite.h */,
+				4CEB71C01640BFED00B36E38 /* MFSprite.m */,
+				4CEB71AB1640AEE000B36E38 /* MFView.h */,
+				4CEB71AC1640AEE000B36E38 /* MFView.m */,
+			);
+			name = QuartzView;
+			sourceTree = "<group>";
+		};
+		4C11906E1641BF940062EE72 /* Tetris Game Mechanics */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB719B1640AC3F00B36E38 /* MFTetrisGameView.h */,
+				4CEB719C1640AC3F00B36E38 /* MFTetrisGameView.m */,
+				4C119055164185170062EE72 /* MFTetrisEngine.h */,
+				4C119056164185170062EE72 /* MFTetrisEngine.m */,
+				4C11906A1641B8950062EE72 /* MFTetrisPiece.h */,
+				4C11906B1641B8950062EE72 /* MFTetrisPiece.m */,
+				4C119058164187A60062EE72 /* MFTetrisPieces.h */,
+				4C119059164187A60062EE72 /* MFTetrisPieces.m */,
+			);
+			name = "Tetris Game Mechanics";
+			sourceTree = "<group>";
+		};
+		4C30E6611640933C00FD02C4 = {
+			isa = PBXGroup;
+			children = (
+				4C30E6761640933C00FD02C4 /* Tetris */,
+				4C30E66F1640933C00FD02C4 /* Frameworks */,
+				4C30E66D1640933C00FD02C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C30E66D1640933C00FD02C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C30E66C1640933C00FD02C4 /* Tetris.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C30E66F1640933C00FD02C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB71B61640B73300B36E38 /* OpenGL.framework */,
+				4CEB71B01640AF9D00B36E38 /* CoreGraphics.framework */,
+				4CEB71AE1640AF9700B36E38 /* QuartzCore.framework */,
+				4C30E6701640933C00FD02C4 /* Cocoa.framework */,
+				4C30E6721640933C00FD02C4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C30E6721640933C00FD02C4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C30E6731640933C00FD02C4 /* AppKit.framework */,
+				4C30E6741640933C00FD02C4 /* CoreData.framework */,
+				4C30E6751640933C00FD02C4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4C30E6761640933C00FD02C4 /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				4C30E68D1640A4F900FD02C4 /* Constants.h */,
+				4C30E6821640933C00FD02C4 /* MFAppDelegate.h */,
+				4C30E6831640933C00FD02C4 /* MFAppDelegate.m */,
+				4C30E6851640933C00FD02C4 /* MainMenu.xib */,
+				4C968AA4164339A5000A347C /* Classic Mode */,
+				4C11906F1641C8280062EE72 /* brickIImage.png */,
+				4C11906E1641BF940062EE72 /* Tetris Game Mechanics */,
+				4C11906D1641BF850062EE72 /* QuartzView */,
+				4C30E6771640933C00FD02C4 /* Supporting Files */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		4C30E6771640933C00FD02C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C30E6781640933C00FD02C4 /* Tetris-Info.plist */,
+				4C30E6791640933C00FD02C4 /* InfoPlist.strings */,
+				4C30E67C1640933C00FD02C4 /* main.m */,
+				4C30E67E1640933C00FD02C4 /* Tetris-Prefix.pch */,
+				4C30E67F1640933C00FD02C4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C968AA4164339A5000A347C /* Classic Mode */ = {
+			isa = PBXGroup;
+			children = (
+				4C968AA5164339CB000A347C /* MFClassicModeView.h */,
+				4C968AA6164339CB000A347C /* MFClassicModeView.m */,
+			);
+			name = "Classic Mode";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C30E66B1640933C00FD02C4 /* Tetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C30E68A1640933C00FD02C4 /* Build configuration list for PBXNativeTarget "Tetris" */;
+			buildPhases = (
+				4C30E6681640933C00FD02C4 /* Sources */,
+				4C30E6691640933C00FD02C4 /* Frameworks */,
+				4C30E66A1640933C00FD02C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetris;
+			productName = Tetris;
+			productReference = 4C30E66C1640933C00FD02C4 /* Tetris.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C30E6631640933C00FD02C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chance Hudson";
+			};
+			buildConfigurationList = 4C30E6661640933C00FD02C4 /* Build configuration list for PBXProject "Tetris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C30E6611640933C00FD02C4;
+			productRefGroup = 4C30E66D1640933C00FD02C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C30E66B1640933C00FD02C4 /* Tetris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C30E66A1640933C00FD02C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C30E67B1640933C00FD02C4 /* InfoPlist.strings in Resources */,
+				4C30E6811640933C00FD02C4 /* Credits.rtf in Resources */,
+				4C30E6871640933C00FD02C4 /* MainMenu.xib in Resources */,
+				4C1190701641C8280062EE72 /* brickIImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C30E6681640933C00FD02C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C30E67D1640933C00FD02C4 /* main.m in Sources */,
+				4C30E6841640933C00FD02C4 /* MFAppDelegate.m in Sources */,
+				4CEB719D1640AC3F00B36E38 /* MFTetrisGameView.m in Sources */,
+				4CEB71AD1640AEE000B36E38 /* MFView.m in Sources */,
+				4CEB71C11640BFED00B36E38 /* MFSprite.m in Sources */,
+				4C119057164185170062EE72 /* MFTetrisEngine.m in Sources */,
+				4C11905A164187A60062EE72 /* MFTetrisPieces.m in Sources */,
+				4C11906C1641B8950062EE72 /* MFTetrisPiece.m in Sources */,
+				4C968AA7164339CB000A347C /* MFClassicModeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C30E6791640933C00FD02C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C30E67A1640933C00FD02C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C30E67F1640933C00FD02C4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C30E6801640933C00FD02C4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4C30E6851640933C00FD02C4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C30E6861640933C00FD02C4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C30E6881640933C00FD02C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C30E6891640933C00FD02C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C30E68B1640933C00FD02C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetris/Tetris-Prefix.pch";
+				INFOPLIST_FILE = "Tetris/Tetris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C30E68C1640933C00FD02C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetris/Tetris-Prefix.pch";
+				INFOPLIST_FILE = "Tetris/Tetris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C30E6661640933C00FD02C4 /* Build configuration list for PBXProject "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C30E6881640933C00FD02C4 /* Debug */,
+				4C30E6891640933C00FD02C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C30E68A1640933C00FD02C4 /* Build configuration list for PBXNativeTarget "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C30E68B1640933C00FD02C4 /* Debug */,
+				4C30E68C1640933C00FD02C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C30E6631640933C00FD02C4 /* Project object */;
+}
