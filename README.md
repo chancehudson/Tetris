@@ -4,6 +4,8 @@ An Objective-C implementation of Tetris for Mac.
 
 ## Demo
 
+![tetris_demo](https://user-images.githubusercontent.com/631020/41504148-0dedc37a-71ac-11e8-9e6f-76e22a679eb1.gif)
+
 ## Controls
 
 - Left and right arrow keys to move blocks left and right
