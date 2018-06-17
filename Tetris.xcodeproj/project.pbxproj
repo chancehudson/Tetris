@@ -17,7 +17,6 @@
 		4C30E6811640933C00FD02C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E67F1640933C00FD02C4 /* Credits.rtf */; };
 		4C30E6841640933C00FD02C4 /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C30E6831640933C00FD02C4 /* MFAppDelegate.m */; };
 		4C30E6871640933C00FD02C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E6851640933C00FD02C4 /* MainMenu.xib */; };
-		4C968AA7164339CB000A347C /* MFClassicModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C968AA6164339CB000A347C /* MFClassicModeView.m */; };
 		4CEB719D1640AC3F00B36E38 /* MFTetrisGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB719C1640AC3F00B36E38 /* MFTetrisGameView.m */; };
 		4CEB71AD1640AEE000B36E38 /* MFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB71AC1640AEE000B36E38 /* MFView.m */; };
 		4CEB71AF1640AF9700B36E38 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEB71AE1640AF9700B36E38 /* QuartzCore.framework */; };
@@ -48,8 +47,6 @@
 		4C30E6831640933C00FD02C4 /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
 		4C30E6861640933C00FD02C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4C30E68D1640A4F900FD02C4 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		4C968AA5164339CB000A347C /* MFClassicModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFClassicModeView.h; path = ../MFClassicModeView.h; sourceTree = "<group>"; };
-		4C968AA6164339CB000A347C /* MFClassicModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFClassicModeView.m; path = ../MFClassicModeView.m; sourceTree = "<group>"; };
 		4CEB719B1640AC3F00B36E38 /* MFTetrisGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTetrisGameView.h; sourceTree = "<group>"; };
 		4CEB719C1640AC3F00B36E38 /* MFTetrisGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTetrisGameView.m; sourceTree = "<group>"; };
 		4CEB71AB1640AEE000B36E38 /* MFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFView.h; sourceTree = "<group>"; };
@@ -148,7 +145,6 @@
 				4C30E6821640933C00FD02C4 /* MFAppDelegate.h */,
 				4C30E6831640933C00FD02C4 /* MFAppDelegate.m */,
 				4C30E6851640933C00FD02C4 /* MainMenu.xib */,
-				4C968AA4164339A5000A347C /* Classic Mode */,
 				4C11906F1641C8280062EE72 /* brickIImage.png */,
 				4C11906E1641BF940062EE72 /* Tetris Game Mechanics */,
 				4C11906D1641BF850062EE72 /* QuartzView */,
@@ -167,15 +163,6 @@
 				4C30E67F1640933C00FD02C4 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4C968AA4164339A5000A347C /* Classic Mode */ = {
-			isa = PBXGroup;
-			children = (
-				4C968AA5164339CB000A347C /* MFClassicModeView.h */,
-				4C968AA6164339CB000A347C /* MFClassicModeView.m */,
-			);
-			name = "Classic Mode";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +239,6 @@
 				4C119057164185170062EE72 /* MFTetrisEngine.m in Sources */,
 				4C11905A164187A60062EE72 /* MFTetrisPieces.m in Sources */,
 				4C11906C1641B8950062EE72 /* MFTetrisPiece.m in Sources */,
-				4C968AA7164339CB000A347C /* MFClassicModeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
